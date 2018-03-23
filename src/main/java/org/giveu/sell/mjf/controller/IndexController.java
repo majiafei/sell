@@ -12,6 +12,7 @@ public class IndexController {
     public String index(){
         int i = 5;
         System.out.println("hddd");
+        
         return "index";
     }
 
