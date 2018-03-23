@@ -1,12 +1,16 @@
 package org.giveu.sell.mjf.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
 public class ProductInfo {
 
     /**
      * 商品id
      */
+    @Id
     private String productId;
 
     /**
