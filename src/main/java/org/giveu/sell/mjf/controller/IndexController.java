@@ -10,6 +10,7 @@ public class IndexController {
     @RequestMapping("/index")
     @ResponseBody
     public String index(){
+        int i = 5;
         return "index";
     }
 
